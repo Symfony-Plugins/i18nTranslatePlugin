@@ -1,0 +1,18 @@
+= i18nTranslate plugin =
+
+The `i18nTranslatePlugin` attempts to translate your words and sentences using Google Language Api.
+
+== Installation ==
+
+  * Install the plugin ( Symfony 1.1 or above required )
+  
+  {{{
+    ./symfony plugin:install i18nTranslatePlugin
+  }}}
+
+== Usage ==
+
+  {{{
+    ./symfony i18n:translate frontend en it
+  }}}
+
